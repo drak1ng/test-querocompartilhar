@@ -78,7 +78,7 @@
 				    e.preventDefault();
 				}, false);
 
-        function onOnLine(){ $('#checarConexao').hide(); if(jaFicouOffline==1){ jaFicouOffline=0; } }
+        function onOnLine(){ $('#checarConexao').hide(); iframe.src=iframe.src; if(jaFicouOffline==1){ jaFicouOffline=0; } }
         function onOffLine(){ $('#checarConexao').show(); jaFicouOffline=1; }
 
 			</script>
